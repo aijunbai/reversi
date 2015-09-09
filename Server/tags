@@ -1,0 +1,131 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ACTION	TCPServer.cpp	38;"	d	file:
+AR	Makefile	/^AR            = ar cqs$/;"	m
+BLACK_WIN	TCPServer.cpp	46;"	d	file:
+BOARD_DESCRIPTION	TCPServer.cpp	40;"	d	file:
+BOARD_DESCRIPTION	board.cpp	31;"	d	file:
+BOARD_H	board.h	2;"	d
+BUFFER_SIZE	TCPServer.h	48;"	d
+Board	board.cpp	/^Board::Board()$/;"	f	class:Board
+Board	board.h	/^class Board{$/;"	c
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT  $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CH_BLACK	TCPServer.cpp	51;"	d	file:
+CH_BLACK	board.cpp	29;"	d	file:
+CH_EMPTY	TCPServer.cpp	50;"	d	file:
+CH_EMPTY	board.cpp	28;"	d	file:
+CH_WHITE	TCPServer.cpp	52;"	d	file:
+CH_WHITE	board.cpp	30;"	d	file:
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT  $(DEFINES)$/;"	m
+DEFAULT_PORT	TCPServer.h	47;"	d
+DEFAULT_QUEUE_SIZE	TCPServer.h	49;"	d
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/unix.conf \\$/;"	m
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/default -I. -I\/usr\/include\/QtCore -I\/usr\/include\/QtCore -I\/usr\/include\/QtGui -I\/usr\/include\/QtGui -I\/usr\/include -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+IP	TCPServer.h	/^	char IP[20];$/;"	m	struct:client_ds
+LEX	Makefile	/^LEX           = flex$/;"	m
+LEXFLAGS	Makefile	/^LEXFLAGS      = $/;"	m
+LFLAGS	Makefile	/^LFLAGS        = $/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib -lQtGui -L\/usr\/lib -L\/usr\/X11R6\/lib -lpng -lSM -lICE -lXi -lXrender -lXrandr -lXfixes -lXcursor -lXinerama -lfreetype -lfontconfig -lXext -lX11 -lQtCore -lz -lm -ldl -lpthread$/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+ONE_MORE_TIME	TCPServer.cpp	58;"	d	file:
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = rvrsserver$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+RECV_TIMEWAIT	TCPServer.cpp	29;"	d	file:
+RL_BLACK	TCPServer.cpp	54;"	d	file:
+RL_MONITOR	TCPServer.cpp	56;"	d	file:
+RL_WHITE	TCPServer.cpp	55;"	d	file:
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -sf$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = rvrsserver$/;"	m
+TCPServer	TCPServer.cpp	/^TCPServer::TCPServer( Board *b, int call_port){$/;"	f	class:TCPServer
+TCPServer	TCPServer.h	/^class TCPServer{	$/;"	c
+TCPServer_h	TCPServer.h	2;"	d
+THREE_TIMES_LEFT	TCPServer.cpp	60;"	d	file:
+TIMES_LEFT	TCPServer.cpp	/^static const char TIMES_LEFT[] = {'\\0', ONE_MORE_TIME, TWO_TIMES_LEFT, THREE_TIMES_LEFT};$/;"	v	file:
+TWO_TIMES_LEFT	TCPServer.cpp	59;"	d	file:
+WAIT	TCPServer.cpp	39;"	d	file:
+WHITE_WIN	TCPServer.cpp	47;"	d	file:
+WIN	TCPServer.cpp	/^static const char WIN[] = {'\\0', '\\0', BLACK_WIN, WHITE_WIN};$/;"	v	file:
+YACC	Makefile	/^YACC          = yacc$/;"	m
+YACCFLAGS	Makefile	/^YACCFLAGS     = -d$/;"	m
+YOU_LOSE	TCPServer.cpp	43;"	d	file:
+YOU_TIE	TCPServer.cpp	44;"	d	file:
+YOU_WIN	TCPServer.cpp	42;"	d	file:
+_REENTRANT	TCPServer.cpp	28;"	d	file:
+able_to_put	board.cpp	/^bool Board::able_to_put(char color)$/;"	f	class:Board
+authentication	TCPServer.cpp	/^bool TCPServer::authentication( int socket)$/;"	f	class:TCPServer
+board	TCPServer.h	/^	Board *board;$/;"	m	class:TCPServer
+board_st	board.cpp	/^char board_st[][8] = {$/;"	v
+can_put	board.cpp	/^inline bool Board::can_put(int pos, char color)$/;"	f	class:Board
+can_put	board.cpp	/^inline bool Board::can_put(int x, int y, char color)$/;"	f	class:Board
+can_put	board.cpp	/^inline bool Board::can_put(int x, int y, char color, unsigned char dir)$/;"	f	class:Board
+client_addr	TCPServer.h	/^	struct sockaddr_in client_addr;$/;"	m	class:TCPServer	typeref:struct:TCPServer::sockaddr_in
+client_ds	TCPServer.h	/^	client_ds(int n, const char *s, short i, char r, pthread_t id){$/;"	f	struct:client_ds
+client_ds	TCPServer.h	/^struct client_ds{$/;"	s
+client_socket	TCPServer.h	/^	int  client_socket;$/;"	m	class:TCPServer
+client_thread_id	TCPServer.h	/^	pthread_t client_thread_id;$/;"	m	class:TCPServer
+client_thread_start_routine	TCPServer.cpp	/^static void *client_thread_start_routine(void *v)$/;"	f	file:
+clients_n	TCPServer.h	/^	int clients_n;$/;"	m	class:TCPServer
+comunication	TCPServer.cpp	/^void TCPServer::comunication()$/;"	f	class:TCPServer
+finish	board.h	/^	bool finish;$/;"	m	class:Board
+get_color	board.cpp	/^inline char Board::get_color(int x, int y)$/;"	f	class:Board
+init	board.cpp	/^void Board::init()$/;"	f	class:Board
+is_my_turn	TCPServer.cpp	/^inline static bool is_my_turn(int my_no)$/;"	f	file:
+layout	board.h	/^	char layout[66];   \/\/\/layout[65] = '\\0' as end flag, layout[0] is flag of BOARD_DISCREPTION$/;"	m	class:Board
+main	main.cpp	/^int main()$/;"	f
+main_loop	TCPServer.cpp	/^inline void TCPServer::main_loop(char my_no, int socket, char *const msg)$/;"	f	class:TCPServer
+mutex_update	TCPServer.cpp	/^static pthread_mutex_t 	mutex_update = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+next_pos	board.cpp	/^inline void Board::next_pos(int &x, int &y, unsigned char dir)$/;"	f	class:Board
+opposite	board.cpp	/^inline char Board::opposite(char color)$/;"	f	class:Board
+port	TCPServer.h	/^	int  port;$/;"	m	class:TCPServer
+port	TCPServer.h	/^	unsigned long port;$/;"	m	struct:client_ds
+possible_dir	board.cpp	/^static const unsigned char possible_dir[][8] = {$/;"	v	file:
+put	board.cpp	/^void Board::put( int pos, char color)$/;"	f	class:Board
+recv_msg	TCPServer.cpp	/^inline void TCPServer::recv_msg( int socket, char *msg, size_t size)$/;"	f	class:TCPServer
+role	TCPServer.h	/^	char  role;$/;"	m	struct:client_ds
+send_msg	TCPServer.cpp	/^inline void TCPServer::send_msg( int socket, char *msg, char *s)$/;"	f	class:TCPServer
+send_msg	TCPServer.cpp	/^inline void TCPServer::send_msg( int socket, char *msg, char c)$/;"	f	class:TCPServer
+send_rslt	TCPServer.cpp	/^inline	void TCPServer::send_rslt(int socket, char my_no, char winner)$/;"	f	class:TCPServer
+server_addr	TCPServer.h	/^	struct sockaddr_in server_addr;$/;"	m	class:TCPServer	typeref:struct:TCPServer::sockaddr_in
+server_socket	TCPServer.h	/^	int  server_socket;$/;"	m	class:TCPServer
+set_color	board.cpp	/^inline void Board::set_color(int x, int y, char flag)$/;"	f	class:Board
+show_board	board.cpp	/^inline void Board::show_board(int depth)$/;"	f	class:Board
+socket	TCPServer.h	/^	int socket;$/;"	m	struct:client_ds
+stop	TCPServer.cpp	/^static bool stop = false;$/;"	v	file:
+stretch	board.cpp	/^inline int Board::stretch(int x, int y, unsigned char dir, char color)$/;"	f	class:Board
+tell_to_update	TCPServer.cpp	/^static pthread_cond_t  	tell_to_update = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+the_other	TCPServer.cpp	/^inline static int the_other(int my_no)$/;"	f	file:
+thread_id	TCPServer.h	/^	pthread_t thread_id;$/;"	m	struct:client_ds
+time_limit	TCPServer.h	/^	void time_limit(int socket, int sec){$/;"	f	class:TCPServer
+turn_another	TCPServer.cpp	/^inline static void turn_another()$/;"	f	file:
+turn_index	TCPServer.cpp	/^static int turn_index = RL_BLACK;		\/\/\/by default Black is the first one to place chess$/;"	v	file:
+un_updated	TCPServer.cpp	/^int un_updated = 0;			\/\/\/a flag works like a sem$/;"	v
+update	board.cpp	/^bool Board::update(int color, char *msg)$/;"	f	class:Board
+update_dir	board.cpp	/^inline void Board::update_dir(int x, int y, unsigned char dir, char color)$/;"	f	class:Board
+version	main.cpp	/^void version()$/;"	f
+wait_times	TCPServer.cpp	/^int wait_times = 0;			\/\/\/this is a flag to know wether contest is to be finished,$/;"	v
+winner	board.cpp	/^char Board::winner()$/;"	f	class:Board

@@ -1,0 +1,52 @@
+#ifndef HISTORY_H
+#define HISTORY_H
+/***************************************************************************
+ *   Copyright (C) 2006-2007 by Bai Aijun   *
+ *   baj@mail.ustc.edu.cn,   baj_forever@126.com   *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *   This program is distributed in the hope that it will be useful,       *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with this program; if not, write to the                         *
+ *   Free Software Foundation, Inc.,                                       *
+ *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+ ***************************************************************************/
+
+/**
+	@author Bai Aijun <baj@mail.ustc.edu.cn,   baj_forever@126.com>
+ */ 
+
+#include "common.h"
+
+class Board;
+
+class HistoryTable{
+	Board *board;	
+	int sorted_move[2][65][65];
+	static const int init_priority[65];
+	void init();
+public:
+	HistoryTable(Board *b = 0){
+		assert(b);
+		board = b;
+		init();
+		puts(">>>> history setupped");
+	}
+	
+	int move_list_len(char&, int);
+	int move(char&, int, int);
+	void advance_move(char&, int, int);
+	void float_move(char&, int, int);
+	void reorder_move(int);
+	int get_init_index(int);
+};
+
+#endif
